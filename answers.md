@@ -5,19 +5,8 @@ The assumption that Netflix has a contractual relationship with its customers is
 (6, 2017) until (5, 2018), Unique users: 20850
 
 ### 3a
-time  retention_rate
- 6/2017      100.000000
- 7/2017       71.645330
- 8/2017        9.435752
- 9/2017        1.422475
-10/2017        0.711238
-11/2017        0.331911
-12/2017        0.331911
- 1/2018        0.237079
- 2/2018        0.189663
- 3/2018        0.047416
- 4/2018        0.047416
- 5/2018        0.047416
+![Retention Rate Table](./assets/retention_rate_table.jpg)
+
 
 ### 3b
 ![Retention Rate vs. Time](./assets/retention_rate_vs_time.png)
