@@ -11,6 +11,129 @@ The assumption that Netflix has a contractual relationship with its customers is
 ### 3b
 ![Retention Rate vs. Time](./assets/retention_rate_vs_time.png)
 
+### 3c
+Average retention rate of cohort 0: 15.37%
+
+### 3d
+Industry Benchmarks
+Netflix and other major Subscription Video On Demand (SVOD) platforms typically report much higher retention rates. Industry data suggests:
+1.  Monthly Retention Rates: SVOD platforms like Netflix often have monthly retention rates exceeding 90%.
+2. Monthly Churn Rates: Reported churn rates are generally low, often around 2% to 5% per month, implying retention rates of 95% to 98%.
+
+
+Comparing our calculated retention rates with industry benchmarks:
+
+Our Retention Rates:
+
+- Sharp decline from 100% to 71.65% in the first month.
+- Further drop to 9.44% in the second month.
+- Retention rates fall below 1% after a few months.
+
+
+Industry Benchmarks:
+
+- Retention rates remain above 90% month over month.
+- Churn rates are low, indicating that most users continue their subscriptions.
+
+Several reasons may cause this discrepancy between our results and industry benchmarks:
+
+1. Data Limitations
+
+    i. Inability to Track All User Activity:
+
+    The data only captures user activity on desktop and laptops.
+    Users who switch to other devices (e.g., mobile phones, tablets, smart TVs) are not tracked and are considered as churned in our dataset.
+
+    ii. Subscription Variable:
+
+    The subscription variable is always 1 in the dataset, as we cannot observe if a user cancels their subscription.
+    We define churn as users who stop watching Netflix on desktop or laptop, which may not reflect actual cancellations.
+
+2. Overestimation of Churn
+
+    i. Device Switching:
+
+    Users may simply change devices rather than cancel their subscriptions.
+    Given the popularity of mobile and smart TV usage for streaming, many users may migrate away from desktops.
+
+    ii. Misclassification of Active Users:
+
+    Users who are inactive on desktop/laptop but active on other devices are misclassified as churned.
+
+3. Data Collection Period and Sample
+
+    i. Sample Representation:
+
+    The dataset may not be representative of the entire Netflix user base.
+    It may focus on a specific segment with different usage patterns.
+
+    ii. Time Frame:
+
+    The data covers a specific 12-month period, which may not capture long-term retention behaviors.
+
+4. User Behavior Patterns
+
+    i. Desktop Usage Decline:
+
+    There has been a general trend towards increased mobile and connected TV usage for streaming. Desktop streaming may show higher churn due to this shift.
+
+    ii. Content Consumption Habits:
+
+    Users might use desktops for initial sign-ups or trials and then switch to other devices.
+
+### 3e.
+
+Monthly Retention Rate by Cohort:
+
+| Month | Cohort 1 | Cohort 2 | Cohort 3 | Cohort 4 | Cohort 5 | Cohort 6 | Cohort 7 | Cohort 8 | Cohort 9 | Cohort 10 | Cohort 11 |
+|-------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|-----------|
+| 0     | 100.00   | 100.00   | 100.00   | 100.00   | 100.00   | 100.00   | 100.00   | 100.00   | 100.00   | 100.00    | 100.00    |
+| 1     | 54.56    | 52.52    | 44.56    | 44.00    | 64.92    | 73.29    | 58.44    | 70.28    | 46.26    | 54.48     | -         |
+| 2     | 17.28    | 4.13     | 5.55     | 17.06    | 3.80     | 8.49     | 4.60     | 7.53     | 3.42     | -         | -         |
+| 3     | 2.32     | 1.13     | 2.00     | 1.09     | 1.34     | 1.22     | 1.99     | 1.21     | -        | -         | -         |
+| 4     | 0.88     | 0.40     | 1.33     | 0.52     | 0.50     | 0.58     | 1.02     | -        | -        | -         | -         |
+| 5     | 0.56     | 0.23     | 0.59     | 0.34     | 0.45     | 0.26     | -        | -        | -        | -         | -         |
+| 6     | 0.24     | 0.17     | 0.44     | 0.29     | 0.34     | -        | -        | -        | -        | -         | -         |
+| 7     | 0.16     | 0.11     | 0.30     | 0.11     | -        | -        | -        | -        | -        | -         | -         |
+| 8     | -        | 0.06     | 0.22     | -        | -        | -        | -        | -        | -        | -         | -         |
+
+Average Retention Rates:
+
+| Cohort | Average Retention Rate |
+|--------|-------------------------|
+| 1      | 22.0%                  |
+| 2      | 17.64%                 |
+| 3      | 17.22%                 |
+| 4      | 20.43%                 |
+| 5      | 24.48%                 |
+| 6      | 30.64%                 |
+| 7      | 33.21%                 |
+| 8      | 44.75%                 |
+| 9      | 49.89%                 |
+| 10     | 77.24%                 |
+| 11     | 100.0%                 |
+
+### 3f.
+![Retention Rate Each Month Against Cohorts](./assets/retention_rate_each_month_against_cohorts.png)
+
+### 3g.
+False - The third cohort (Cohort 2) does not have the highest average monthly retention rate
+
+### 3h.
+Cohort-Specific Analysis (3a, 3b and 3c) is best when:
+1. You want to understand how retention varies by the month of acquisition
+2. Your goal is to identify factors that affect specific cohorts
+3. You are aiming to tailor retention strategies to different user groups
+
+Aggregated Analysis (3f and 3g) is best when:
+1. You need a general overview of retention trends
+2. You are focusing on overall business performance, rather than cohort differences
+3. You need a benchmark to assess how effective different retention initiatives are
+
+You can leverage both approaches, by first using an aggregated analysis to establish a baseline and identify general patterns. After that, you can use a cohort-specific analysis to go more granular in discovering insights and tailor your strategies accordingly. An approach like this will allow you to maximise the strengths of both approaches, and also allow for a much better understanding of customer retention.
+
+
+
 ### 8a. 
 **Attributes and levels (genre mutually exclusive)**
 
